@@ -42,6 +42,6 @@ class Client {
     }
 
     set gym(gym) {
-        this._gym = gym
+        this._gym = gym;
     }
 }

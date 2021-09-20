@@ -11,7 +11,7 @@ class Gym {
 
     get address() {
         return this._address;
-    };
+    }
 
     getTrainerByName(name) {
         let oneTrainer = this._trainers.find(trainer => trainer.name === name).name;
@@ -35,7 +35,7 @@ class Gym {
     payTraining(nameTrainer, payCash) {
         this._trainers.find(trainer => {
             if (trainer.name === nameTrainer) {
-                trainer.addCash(payCash)
+                trainer.addCash(payCash);
             }
         });
     }
