@@ -10,6 +10,8 @@ Yulia.gym = metal;
 metal.addTrainer(andrey);
 metal.addTrainer(sashaVip);
 
+let trainer = metal.getTrainerByName("Andrey")
+console.log(trainer)
 /*
 andrey.addCashAsync(10, function (err , data) {
     if (err) {

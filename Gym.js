@@ -14,8 +14,7 @@ class Gym {
     }
 
     getTrainerByName(name) {
-        let oneTrainer = this._trainers.find(trainer => trainer.name === name).name;
-        return oneTrainer;
+         return this._trainers.find(trainer => trainer.name === name);
     }
 
     get trainers() {
